@@ -1,0 +1,658 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 610px !important; 
+    background: url(images/bg2.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden !important;
+}
+#box
+{
+    width: 90%;
+    height: 500px;
+    margin: 5%;
+    color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+ul
+{
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+ul li 
+{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 25px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+ul li a:hover
+{
+   font-size: 25px !important;
+   color: red !important;
+}
+#btn
+{
+    float: left;
+    margin-left: 90%;
+    margin-top: 2% !important;
+    padding: 5px 13px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+#btn:hover
+{
+    color: red;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px  gray;
+    font-size: 18px;
+}
+#car
+{
+    margin-top: 15%;
+    font-size: 70px;
+    margin-left: 5%;
+    text-indent: 5px;
+    float: left;
+    width: 50%;
+}
+#port
+{
+    font-size: 70px;
+    margin-left: 5%;
+    text-indent: 15px;
+    float: left;
+    width: 50%;
+}
+p
+{
+    width: 30%;
+    padding-left: 6%;
+    margin-top: 30%;
+    float: left;
+    position: absolute;
+    
+}
+.login
+{
+    width: 25%;
+    height: auto;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: -15%;
+    border-radius: 25px;
+    background-color: white;
+}
+#Email,#pass,#send
+{
+    padding: 10px;
+    width: 80%;
+    margin: 15px;
+    margin-left: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color:bisque;
+}
+#Email
+{
+    margin-top: 50px !important;
+}
+#send
+{
+    margin-bottom: 50px !important;
+}
+#person
+{
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 43%;
+    font-size: 45px;
+    color: brown;
+    margin-top: -6%;
+}
+#about
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-top: 15%;
+    margin-left: 0%;
+    /* height: fit-content; */
+    display: flex !important;
+    align-items: center !important;
+    position: absolute;
+    justify-content: center !important; 
+}
+.heading
+{
+    font-size: 45px;
+    margin-top: -40% !important;
+    text-shadow: 2px 1px black;
+    color: gray;
+    margin-left: -10% !important;
+}
+.containt h1
+{
+    width: 80%;
+    height: auto;
+    float: left;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 5%;
+}
+.social,.social1,.social2
+{  
+  font-size: 30px !important;
+  position: absolute;
+  float: left;
+  margin-left: 10% !important;
+  /* margin: 10%; */
+  color: hsl(0, 0%, 0%) !important;
+  margin-top: -10% !important;
+  /* background-color: chocolate; */
+}
+.social1
+{
+    padding-left: 30% !important;
+    color: black !important;
+}
+.social2
+{
+    padding-left: 59%;
+}
+.para
+{
+   margin-top: -9% !important;
+   margin-left: 8%;
+}
+.para1
+{
+    margin-top: -9%;
+    margin-left: 38%;
+}
+.para2
+{
+    margin-top: -9%;
+    margin-left: 69%;
+}
+.sign h6
+{
+    width: 100% !important;
+    height: auto !important;
+    color: darkgray !important;
+   font-size: 20px;
+   margin-left: 5%;
+   margin-top: -5% !important;
+   position: absolute;
+}
+.sign .p
+{
+    width: 100%;
+    position: absolute;
+    margin-top: 1% !important;
+}
+.sign .p1
+{
+    width: 100%;
+    margin-top: 7%;
+}
+.sign .p2
+{
+    width: 100%;
+    margin-top: 11%;
+}
+.sign .p3
+{
+    width: 100%;
+    margin-top: 15%;
+}
+.car-area
+{
+    width: 100%;
+    height: 200px;
+    margin-top:40%;
+    margin-left: -100% !important;
+    position: absolute; 
+}
+.car1,.car2,.car3
+{
+   width: 100%;
+   height: 200px;
+   margin: 5%;
+}
+.cars,.cars1,.cars2
+{
+  
+    float: left !important; 
+    width: 60%;
+    height: 200px;
+    margin-left: 5%;
+}
+.cars
+{
+    margin-top: -10%;
+}
+.cars1
+{
+    margin-top: -44.6%;
+    margin-left: 60%;
+}
+.cars2
+{
+    margin-top: -79.4%;
+    margin-left: 120%;
+}
+.car1,.car2,.car3 h1
+{
+    color: white;
+}
+.car1 h1
+{
+    margin-top: -5%;
+    font-size: 20px !important;
+    margin-left: 7%;
+}
+.car2 h1
+{
+    font-size: 20px !important;
+    margin-left: 63% !important;
+    margin-top: -39% !important;
+}
+.car3 h1
+{
+    font-size: 20px !important;
+    margin-left: 123% !important;
+    margin-top: -74% !important;
+}
+.car1 p
+{
+    width: 55%;
+    margin-top: 1% !important;
+    color: white;
+    margin-left: 1%;
+}
+.car2 p
+{
+    width: 55%;
+    margin-top: -33% !important;
+    margin-left: 57%;
+    color: white;
+}
+.car3 p
+{
+    width: 55%;
+    margin-top: -68% !important;
+    margin-left: 117% !important;
+    color: white !important;
+}
+#btn1
+{
+    background-color: blueviolet;
+    margin-top: 12% !important;
+    margin-left: -58%;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+}
+#btn2
+{
+    background-color: blueviolet;
+    margin-left: 63%;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    margin-top: -24%;
+    position: absolute;
+}
+#btn3
+{
+    width: 25%;
+    background-color: blueviolet;
+    margin-left: 123%;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    margin-top: -59%;
+    position: absolute;
+}
+#winn
+{
+    margin-top: 22%;
+    margin-left: 6%;
+    position: absolute;
+    width: 25%;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+#winn:hover
+{
+    font-size: 20px;
+    background-color: indianred;
+    box-shadow: 5px black !important;
+}
+.heading1
+{
+    margin-top: -2%;
+    margin-left: 40% !important;
+    text-shadow: 2px 1px black;
+    color: gray;
+    font-size: 45px;
+
+    position: absolute;
+}
+.form
+{
+    width: 90% !important;
+    height: 300px;
+    /* border: 1px solid black !important; */
+    position: absolute;
+    margin-top: 105%;
+    margin-left: 5% !important;
+}
+.form1 
+{
+    width: 40% !important;
+    height: 400px;
+    float: left;
+    position: absolute;
+    display: block !important;
+}
+.form2 
+{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.num
+{
+    width: 60%;
+    margin-top: 15% !important;
+    font-size: 25px !important;
+    margin-left: 17%;
+}
+.insta
+{
+    width: 60%;
+    font-size: 25px !important;
+    margin-left: 16%;
+    margin-top: 5% !important;
+}
+.add
+{
+    width: 60% !important;
+    font-size: 25px !important;
+    margin-left: 16% !important;
+    margin-top: 5% !important;
+}
+.num1
+{
+    margin-top: -5%;
+}
+.insta1
+{
+    margin-top: -5%;
+    margin-left: 2%;
+}
+.add1
+{
+    font-size: 25px;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+.mail
+{
+    width: 60%;
+    font-size: 25px !important;
+    margin-left: 16%;
+    margin-top: 9% !important;
+}
+.gmail
+{
+    margin-top: -6% !important;
+    margin-left: 2%;
+}
+.form2
+{
+    margin-left: 50%;
+    margin-top: 3%;
+}
+#members
+{
+    margin-top: 60%;
+    position: absolute;
+    align-items: center;
+}
+.heading2
+{
+    font-size: 45px;
+    margin-left: 60% !important;
+    color: gray;
+    text-shadow: 2px 1px black;
+}
+.person
+{
+    margin-left: 20%;
+    padding: 10px 20px !important;
+    border: 1px solid gray;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+.info
+{
+    padding: 10px 20px !important;
+}
+th
+{
+    font-size: 30px;
+    padding: 10px 50px !important;
+    border: 1px solid black;
+    border-radius: 5px;
+    color:thistle;
+    text-shadow: 1px 2px black;
+}
+td
+{
+    padding: 10px 50px !important;
+    align-items: center !important;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color:black;
+    text-shadow: 1px 2px gray;
+}
+#del
+{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px !important;
+}
+#del:hover
+{
+    box-shadow: 0 2px 16px gray !important;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    body
+    {
+        background: url(images/bg2.webp) no-repeat;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+    #Home p
+    {
+        margin-top: 93% !important;
+        width: 80% !important;
+    }
+    #box
+    {
+        height: 600px !important;
+    }
+    #car,#port
+    {
+        font-size: 35px !important;
+        margin-left: 5% !important;
+    }
+    #port
+{
+    margin-left: 2% !important;
+}
+    #Home p
+    {
+        width: 50%;
+      margin-top: 75% ;
+      margin-left: 5%;
+    }
+    #btn
+    {
+        margin-top: 5% !important;
+        margin-left: 78% !important;
+    }
+    #about
+    {
+        /* margin-top: -95% !important; */
+        width: 100% !important;
+        position: absolute !important; 
+      }
+    #wowslider-container1
+    {
+        /* display: none !important; */
+        margin-top: 10% !important;
+        position: absolute !important;
+    }
+    .heading
+    {
+        margin-top: -160% !important; 
+        position: absolute !important;
+        margin-left: 30% !important;
+    }
+    .containt 
+    {
+        width: 100% !important;
+        margin-top: 230% !important;
+        margin-left: 0% !important;
+        position: absolute !important;
+    }
+    .heading3
+    {
+        margin-top: -70% !important;
+    }
+    .social,.social1,.social2,.para,.para1,.para2
+    {
+        margin-top: -50% !important;
+    }
+    .sign
+    {
+        margin-top: -35% !important;
+    }
+    .p1
+    {
+        margin-top: 10% !important;
+    }
+    .p2
+    {
+        margin-top: 18% !important;
+    }
+    .p3
+    {
+        margin-top: 28% !important;
+    }
+    #winn
+    {
+        margin-top: 34% !important;
+        width: 40% !important;
+    }
+    .car-area
+    {
+        display: none !important;
+        /* margin-left: 30% !important; */
+    }
+    .heading2
+    {
+    margin-top: -20% !important;
+    margin-left: 30% !important;
+    position: absolute !important;
+    }
+    .form
+    {
+        position: absolute !important;
+        width: 100% !important;
+        margin-top: 300% !important;
+    }
+    .person
+    {
+        width: 100% !important;
+        margin-top: 140% !important;
+        margin-left: 5% !important;
+    }
+    th
+    {
+        padding: 5px 7px !important;
+        font-size: 20px;
+
+    }
+    td
+    {
+        padding: 2px 10px !important;
+    }
+    .heading1
+    {
+        margin-top: -27% !important;
+        margin-left: 25% !important;
+    }
+    .form1
+    {
+        width: 100% !important;
+        margin-top: -25% !important;
+    }
+    .form2
+    {
+    width: 90% !important;
+    margin-left: -5% !important;
+    margin-top: 35% !important;
+    }
+    .login
+    {
+        width: 70% !important;
+        height: auto !important;
+        margin-left: 29% !important;
+        margin-top: -23% !important;
+    }
+    input
+    {
+        width: 180% !important;
+    }
+    #Email,#pass
+    {
+        width: 80% !important;
+    }
+}
